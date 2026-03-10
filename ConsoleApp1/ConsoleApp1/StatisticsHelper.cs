@@ -5,12 +5,12 @@ public class StatisticsHelper
     public static int CalculateAverage(int[] numbers)
     {
         int sum = 0;
-        
+
         foreach (var number in numbers)
         {
             sum += number;
         }
-        
+
         return sum / numbers.Length;
     }
 
@@ -23,7 +23,13 @@ public class StatisticsHelper
             if (numbers > max)
                 max = numbers;
         }
-        
+
         return max;
     }
+
+    public static int CalculateMin(int[] numbers)
+    {
+        
+    }
+
 }
