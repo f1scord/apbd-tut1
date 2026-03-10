@@ -9,7 +9,7 @@ if (int.TryParse(input, out int number))
 }
 else
 {
-    Console.WriteLine("Error: not a correct number");
+    Console.WriteLine("Error: not a valid number");
 }
 
 int[] numbers = { 5, 3, 8, 1, 9, 2 };
