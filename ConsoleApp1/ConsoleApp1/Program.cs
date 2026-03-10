@@ -14,5 +14,11 @@ else
 
 int[] numbers = { 5, 3, 8, 1, 9, 2 };
 
-int result = StatisticsHelper.CalculateAverage(numbers);
-Console.WriteLine("Average: " + result);
+int resultAvg = StatisticsHelper.CalculateAverage(numbers);
+Console.WriteLine("Average: " + resultAvg);
+
+int resultMax =  StatisticsHelper.CalculateMax(numbers);
+Console.WriteLine("Max: " + resultMax);
+
+int resultMin = StatisticsHelper.CalculateMin(numbers);
+Console.WriteLine("Min: " + resultMin);
