@@ -20,8 +20,8 @@ public class StatisticsHelper
 
         foreach (var number in numbers)
         {
-            if (numbers > max)
-                max = numbers;
+            if (number > max)
+                max = number;
         }
         
         return max;
