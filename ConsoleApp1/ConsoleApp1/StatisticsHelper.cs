@@ -29,7 +29,15 @@ public class StatisticsHelper
 
     public static int CalculateMin(int[] numbers)
     {
+        int min = numbers[0];
+
+        foreach (var number in numbers)
+        {
+            if  (number < min)
+                min = number;
+        }
         
+        return min;
     }
 
 }
